@@ -11,7 +11,7 @@
     name: 'app',
     methods:{
     	openTab(){
-    		window.open("./detail.html")
+    		window.open("./detail.html","_blank")
     	}
     }
   }
