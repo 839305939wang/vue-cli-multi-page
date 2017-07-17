@@ -12,8 +12,11 @@ npm install
 
 npm run dev
 
+# 启动成功后可以通过浏览器访问http://localhost:8080/module/detail.html,http://localhost:8080/module/index.html
+
 # build for production with minification
 
 npm run build
 ```
+
 
