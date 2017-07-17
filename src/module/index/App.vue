@@ -1,18 +1,18 @@
 <template>
   <div id="app">
     <img src="./images/logo.png">
-    <hello></hello>
+    <p><button class="btn" @click="openTab()"></button></p>
   </div>
 </template>
 
 <script>
   import 'common/css/reset.css';
-  import Hello from 'components/Hello/Hello'
-
   export default {
     name: 'app',
-    components: {
-      Hello
+    methods:{
+    	openTab(){
+    		window.open("./detail.html")
+    	}
     }
   }
 </script>
@@ -25,5 +25,13 @@
     text-align: center;
     color: #2c3e50;
     margin-top: 60px;
+  }
+  .btn{
+  	border:1px solid green;
+  	min-width:60px;
+  	height:30px;
+  	color:white;
+  	background: green;
+    border-radius: 3px;;
   }
 </style>
