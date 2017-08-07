@@ -3,7 +3,7 @@ var config = require('../config')
 var utils = require('./utils')
 var projectRoot = path.resolve(__dirname, '../')
 var glob = require('glob');
-var entries = utils.getEntry(['./src/module/**/*.js']); // 获得多页面的入口js文件
+var entries = utils.getEntry(['./src/main.js']); // 获得多页面的入口js文件
 
 var env = process.env.NODE_ENV
 // check env & config/index.js to decide weither to enable CSS Sourcemaps for the
