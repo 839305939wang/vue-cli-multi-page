@@ -5,12 +5,12 @@
                   LOGO
                </div>
                 <div class="item logo">
-                  <router-link to="/index">跳转</router-link>
+                  <router-link to="{path:'/index'}">跳转</router-link>
                </div>
                
                <div class="item person">
                    <div class="person_head">
-                      <img src="../../static/images/one.jpg" alt="" />
+                      <img src="./static/images/one.jpg" alt="" />
                    </div>
                </div>
      </div>
